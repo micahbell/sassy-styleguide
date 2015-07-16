@@ -1,0 +1,13 @@
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+table {
+  width: 75%;
+  border: 1px solid black;
+  tr:nth-child(even) {
+    margin-bottom: 20px;
+    background-color: green;
+  }
+}
