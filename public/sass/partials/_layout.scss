@@ -1,21 +1,36 @@
-// @import 'partials/globals';
-
 .container {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 
+nav {
+  display: block;
+  margin-bottom: 100px;
+  ul {
+    float: right;
+    li {
+      display: inline-block;
+      margin-left: 40px;
+      a:link {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
 table {
-  width: 75%;
-  background-color: white;
-  thead {
-    background-color: $gray;
+  width: 100%;
+  background-color: $white;
+  th {
+    background-color: $darkgray;
+    color: $black;
     text-align: left;
+    padding: 5px 10px;
   }
   tr:nth-child(even) {
     background-color: $lightgray;
   }
   td {
-    padding: 5px;
+    padding: 5px 10px;
   }
 }
