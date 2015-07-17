@@ -1,3 +1,5 @@
+// @import 'partials/globals';
+
 .container {
   width: 85%;
   margin: 0 auto;
@@ -5,9 +7,15 @@
 
 table {
   width: 75%;
-  border: 1px solid black;
+  background-color: white;
+  thead {
+    background-color: $gray;
+    text-align: left;
+  }
   tr:nth-child(even) {
-    margin-bottom: 20px;
-    background-color: green;
+    background-color: $lightgray;
+  }
+  td {
+    padding: 5px;
   }
 }
