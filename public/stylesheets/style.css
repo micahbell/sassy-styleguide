@@ -194,9 +194,6 @@ td,
 th {
   padding: 0; }
 
-a {
-  color: #F90093; }
-
 html {
   font-size: 1em; }
 
@@ -206,6 +203,14 @@ body {
   font-weight: 300;
   line-height: 1.45;
   color: #444; }
+
+a {
+  color: #F90093; }
+  a:hover {
+    color: #C60F7B; }
+  a:active {
+    color: #C60F7B;
+    font-weight: 500; }
 
 p {
   margin-bottom: 1.3em; }
@@ -219,7 +224,7 @@ h1, h2, h3, h4, h5 {
 h1 {
   margin-top: 0;
   font-size: 3.157em;
-  color: #C60F7B;
+  color: #969A97;
   font-weight: bold; }
 
 h2 {
@@ -243,9 +248,14 @@ small, .font_small {
 table thead tr {
   font-size: 1.25em; }
 
+ul li {
+  color: #F90093; }
+  ul li span {
+    color: #444; }
+
 .container {
   width: 80%;
-  margin: 0 auto; }
+  margin: 30px auto 90px; }
 
 nav {
   display: block;
@@ -270,3 +280,14 @@ table {
     background-color: #FCF7F3; }
   table td {
     padding: 5px 10px; }
+
+form {
+  border: 1px solid black; }
+  form p label {
+    display: inline-block;
+    width: 70px; }
+
+footer {
+  text-align: center; }
+  footer hr {
+    margin-top: 60px; }

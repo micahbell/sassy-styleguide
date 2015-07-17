@@ -1,6 +1,6 @@
 .container {
   width: 80%;
-  margin: 0 auto;
+  margin: 30px auto 90px;
 }
 
 nav {
@@ -34,3 +34,24 @@ table {
     padding: 5px 10px;
   }
 }
+
+form {
+  border: 1px solid black;
+  p label {
+    display: inline-block;
+    width: 70px;
+  }
+}
+
+footer {
+  text-align: center;
+  hr {
+    margin-top: 60px;
+  }
+}
+
+
+
+
+
+//

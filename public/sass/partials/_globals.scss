@@ -8,9 +8,6 @@ $darkgray: #969A97;
 $darkpink: #C60F7B;
 $hotpink: #F90093;
 
-a {
-  color: $hotpink;
-}
 
 // Fonts -----------
 html {font-size: 1em;}
@@ -21,6 +18,17 @@ body {
   font-weight: 300;
   line-height: 1.45;
   color: $black;
+}
+
+a {
+  color: $hotpink;
+  &:hover {
+    color: $darkpink;
+  }
+  &:active {
+    color: $darkpink;
+    font-weight: 500;
+  }
 }
 
 p {margin-bottom: 1.3em;}
@@ -35,7 +43,8 @@ h1, h2, h3, h4, h5 {
 h1 {
   margin-top: 0;
   font-size: 3.157em;
-  color: $darkpink;
+  color: $darkgray;
+  // color: $darkpink;
   font-weight: bold;
 }
 
@@ -61,6 +70,14 @@ h5 {
 small, .font_small {font-size: 0.75em;}
 
 table thead tr {font-size: 1.25em;}
+
+ul li {
+  color: $hotpink;
+  span {
+    color: $black
+  }
+}
+
 
 
 
